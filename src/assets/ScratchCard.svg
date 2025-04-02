@@ -1,0 +1,54 @@
+<svg
+  width="350"
+  height="500"
+  viewBox="0 0 350 500"
+  style="background-color: #1F1D1E; border-radius: 12px;"
+  xmlns="http://www.w3.org/2000/svg"
+> {/* Rotating Ring Image */} <g
+    transform="translate(175, -120)">
+    <g>
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0 0 0"
+        to="360 0 0"
+        dur="12s"
+        repeatCount="indefinite"
+      />
+      <image
+        href="/src/assets/Ring.png"
+        x="-350"
+        y="-350"
+        width="700"
+        height="700"
+      />
+    </g>
+  </g> {/* Text Elements */} <text
+    x="175"
+    y="380"
+    textAnchor="middle"
+    fill="#ffffff"
+    fontFamily="'Playfair Display', serif"
+    fontSize="36px"
+    fontWeight="800"
+  >
+    YOUR SIGN
+  </text>
+        <text
+    x="175"
+    y="430"
+    textAnchor="middle"
+    fill="#ffffff"
+    fontFamily="'Playfair Display', serif"
+    fontSize="36px"
+    fontWeight="800"
+  >
+    AWAITS.
+  </text> {/* Star Image */} <image
+    href="/src/assets/ScratchCardStar.svg"
+    x="145"
+    y="270"
+    width="60"
+    height="60"
+  />
+</svg>

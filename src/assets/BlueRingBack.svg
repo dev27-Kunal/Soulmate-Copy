@@ -1,0 +1,11 @@
+<svg width="701" height="701" viewBox="0 0 701 701" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g style="mix-blend-mode:screen">
+<path d="M701 0H0V701H701V0Z" fill="url(#paint0_radial_27_4319)"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_27_4319" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(350.5 350.5) scale(378.095)">
+<stop stop-color="#0071B9"/>
+<stop offset="1"/>
+</radialGradient>
+</defs>
+</svg>

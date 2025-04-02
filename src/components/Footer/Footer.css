@@ -1,0 +1,18 @@
+.footer{
+    
+}
+.footer-lang-btn{
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+    padding-inline: 0.5rem !important;
+    padding-block: 0.3rem !important;
+    gap: 0.5rem !important;
+    background-color: #E11B24 !important;
+    font-family: 'Roboto' !important;
+    font-weight: 500 !important;
+    font-size: 1.5rem !important;
+    align-items: center !important;
+    border: none !important;
+    border-radius: 5px !important;
+}

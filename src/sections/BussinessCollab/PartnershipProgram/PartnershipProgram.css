@@ -1,0 +1,23 @@
+.business-partnership-program{
+    background-image: url("https://res.cloudinary.com/dpunh7hfo/image/upload/v1741076362/SoulmateX/ffb0qbab5smk4grzul67.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.business-partnership-program-blue-cover{
+    background-color: rgba(0, 89, 169, 0.82);
+}
+
+.partnership-program-btn-linear-gradient {
+  width: 0%;
+  background: linear-gradient(
+    90.21deg,
+    #0059a9 0.18%,
+    #0059a9 54.69%,
+    #0f8dfe 103.02%
+  );
+  transition: width 0.3s ease-in-out;
+}
+
+.partnership-program-btn:hover .partnership-program-btn-linear-gradient{
+    width: 100%;
+}

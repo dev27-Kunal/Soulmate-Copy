@@ -1,0 +1,88 @@
+.landing-love-card {
+  height: 35rem;
+  width: 17rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  position: relative;
+  transition: width 0.3s ease-in-out;
+  /* overflow: hidden; */
+}
+
+.landing-love-card-linear-gradient {
+  height: 7rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  transition: height 0.5s ease;
+  padding-inline: 1vw;
+  overflow: hidden;
+}
+
+.landing-love-card:hover {
+  /* background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 100%); */
+  width: 20rem;
+}
+
+.landing-love-card:hover .landing-love-card-linear-gradient {
+  height: 18rem;
+  background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.landing-love-card-heading {
+  font-size: 1.3rem;
+  color: #ffffff;
+  font-family: "Roboto";
+}
+.landing-love-card-sub-heading {
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-family: "Roboto";
+}
+
+.landing-love-card-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 2vh;
+  margin-inline: 1rem;
+}
+
+.landing-love-card-para {
+  display: none;
+  color: #ffffff;
+  transition: display 0.5s ease;
+  font-family: "Roboto";
+}
+
+.landing-love-card:hover .landing-love-card-para {
+  display: flex;
+  color: #ffffff;
+}
+
+@media (min-width: 769px) and (max-width: 855px) {
+  .landing-love-card {
+    height: 30rem;
+    width: 15rem;
+  }
+  .landing-love-card:hover {
+    width: 17rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .landing-love-card-para {
+    font-size: 14px;
+  }
+  .landing-love-card {
+    height: 27rem;
+    width: 14rem;
+  }
+  .landing-love-card:hover {
+    width: 17rem;
+  }
+}

@@ -1,0 +1,253 @@
+.people-trust {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-image: url("https://res.cloudinary.com/dpunh7hfo/image/upload/v1741077582/SoulmateX/h0jmpaeuukewvm4z6f35.png");
+  background-size: cover;
+  /* background-position: center; */
+  background-position-x: center;
+  background-position-y: top;
+  /* z-index: -1; */
+}
+
+.people-trust-linear-gradient {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background: linear-gradient(
+    270deg,
+    rgba(204, 207, 209, 0) 0%,
+    rgba(125, 126, 127, 0.17) 41.71%,
+    #000000 100%
+  );
+}
+
+.people-trust-outer-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+  width: 90%;
+  max-width: 80.7%;
+  margin-inline: auto;
+  padding-block: 3rem;
+}
+
+.people-trust-inner-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.people-trust-heading {
+  font-size: 64px;
+  line-height: 76.31px;
+  font-family: "Playfair Display";
+  font-weight: 700;
+  color: #ffffff;
+  /* Remove auto animation; will be triggered by .square-animation */
+}
+
+.people-trust-sub-heading {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  font-family: "Roboto", serif;
+  color: #ffffff;
+  /* Remove auto animation; will be triggered by .square-animation */
+}
+
+.people-trust-icon-text-container-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.people-trust-icon-text-container {
+  display: flex;
+  align-items: center;
+}
+
+.people-trust-icon-text {
+  font-size: 24px;
+  color: #ffffff;
+  font-family: "Roboto", serif;
+}
+
+.people-trust-icon {
+  font-size: 32px !important;
+  margin-right: 0.5rem !important;
+  color: #ffffff !important;
+}
+
+.people-trust-sos-icon {
+  height: 32px;
+  width: 32px;
+  margin-right: 0.5rem;
+}
+
+/* Animation trigger class */
+.square-animation .people-trust-heading,
+.square-animation .people-trust-sub-heading {
+  animation: slideInFromLeft 1s ease-in-out forwards;
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1024px) {
+  .people-trust {
+    min-height: 780px;
+  }
+
+  .people-trust-linear-gradient {
+    min-height: 780px;
+  }
+
+  .people-trust-outer-container {
+    min-height: 780px;
+  }
+
+  .people-trust-inner-container {
+    min-height: 780px;
+  }
+
+  .people-trust-heading {
+    font-size: 48px;
+    line-height: 64.31px;
+  }
+
+  .people-trust-sub-heading {
+    font-size: 28px;
+    line-height: 42.19px;
+  }
+  .people-trust-icon-text {
+    font-size: 22px;
+    color: #ffffff;
+    font-family: "Roboto", serif;
+  }
+}
+
+@media (max-width: 768px) {
+  .people-trust {
+    min-height: 560px;
+  }
+
+  .people-trust-linear-gradient {
+    min-height: 560px;
+  }
+
+  .people-trust-outer-container {
+    min-height: 560px;
+  }
+
+  .people-trust-inner-container {
+    min-height: 560px;
+  }
+
+  .people-trust-heading {
+    font-size: 34px;
+    line-height: 50.31px;
+  }
+
+  .people-trust-sub-heading {
+    font-size: 22px;
+    line-height: 35.19px;
+  }
+  .people-trust-icon-text {
+    font-size: 16px;  
+    color: #ffffff;
+    font-family: "Roboto", serif;
+  }
+  .people-trust-icon {
+    font-size: 22px !important;
+    margin-right: 0.5rem !important;
+    color: #ffffff !important;
+  }
+
+  .people-trust-sos-icon {
+    height: 22px;
+    width: 22px;
+    margin-right: 0.5rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .people-trust {
+    min-height: 200px;
+  }
+
+  .people-trust-linear-gradient {
+    min-height: 200px;
+  }
+
+  .people-trust-outer-container {
+    min-height: 200px;
+  }
+
+  .people-trust-inner-container {
+    min-height: 200px;
+  }
+
+  .people-trust-heading {
+    font-size: 18px;
+    line-height: 24.31px;
+  }
+
+  .people-trust-sub-heading {
+    font-size: 10px;
+    line-height: 18.19px;
+  }
+  .people-trust-icon-text {
+    font-size: 9px;
+    color: #ffffff;
+    font-family: "Roboto", serif;
+  }
+  .people-trust-icon {
+    font-size: 12px !important;
+    margin-right: 0.3rem !important;
+    color: #ffffff !important;
+  }
+
+  .people-trust-sos-icon {
+    height: 12px;
+    width: 12px;
+    margin-right: 0.3rem;
+  }
+  .people-trust-icon-text-container-wrapper {
+    gap: 4px;
+  }
+}
+
+/* @media (max-width: 650px) {
+  .people-trust-heading {
+    font-size: 48px;
+    line-height: 50.31px;
+  }
+  .people-trust-sub-heading {
+    font-size: 28px;
+    line-height: 36.19px;
+  }
+} */
+
+/* @media (max-width: 480px) {
+  .people-trust-heading {
+    font-size: 36px;
+    line-height: 50.31px;
+  }
+  .people-trust-sub-heading {
+    font-size: 24px;
+    line-height: 32.19px;
+  }
+} */

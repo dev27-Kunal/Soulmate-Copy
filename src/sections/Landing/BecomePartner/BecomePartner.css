@@ -1,0 +1,144 @@
+.landing-become-partner {
+  width: 100%;
+  height: 100vh;
+  min-height: 860px;
+  background-image: url("https://res.cloudinary.com/dpunh7hfo/image/upload/v1741076362/SoulmateX/ffb0qbab5smk4grzul67.svg");
+  background-size: cover;
+  background-position: center;
+}
+.landing-become-partner-linear-gradient {
+  width: 100%;
+  min-height: 860px;
+  height: 100%;
+  background-image: linear-gradient(
+    270deg,
+    rgba(204, 207, 209, 0) 0%,
+    rgba(125, 126, 127, 0.17) 41.71%,
+    #000000 100%
+  );
+}
+.landing-become-partner-content-container {
+  width: 90%;
+  max-width: 80.7%;
+  margin-inline: auto;
+  padding-block: 2.5vw;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  height: 100%;
+}
+.landing-become-partner-heading-subheading {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.landing-become-partner-heading {
+  font-size: 64px;
+  line-height: 85.31px;
+  font-family: "Playfair Display";
+  font-weight: 700;
+  color: #ffffff;
+}
+.landing-become-partner-subheading {
+  font-size: 36px;
+  line-height: 42.19px;
+  font-family: "Roboto";
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Roboto", serif;
+}
+.landing-become-partner-hover-btn{
+  width: 0%;
+  background: linear-gradient(
+    90.21deg,
+    #0059a9 0.18%,
+    #0059a9 54.69%,
+    #0f8dfe 103.02%
+  );
+  transition: width 0.3s ease-in-out;
+}
+
+@media (max-width: 1024px) {
+  .landing-become-partner {
+    height: 100%;
+    min-height: 780px;
+  }
+  .landing-become-partner-linear-gradient {
+    height: 100%;
+    min-height: 780px;
+  }
+  .landing-become-partner-content-container {
+    height: 100%;
+    min-height: 780px;
+  }
+  .landing-become-partner-heading-subheading {
+    gap: 1.5rem;
+  }
+  .landing-become-partner-heading {
+    font-size: 48px;
+    line-height: 64.31px;
+  }
+  .landing-become-partner-subheading {
+    font-size: 28px;
+    line-height: 42.19px;
+  }
+}
+
+@media (max-width: 768px) {
+  .landing-become-partner {
+    min-height: 600px;
+  }
+  .landing-become-partner-linear-gradient {
+    min-height: 600px;
+  }
+  .landing-become-partner-content-container {
+    min-height: 600px;
+  }
+  .landing-become-partner-heading-subheading {
+    gap: 1rem;
+  }
+  .landing-become-partner-heading {
+    font-size: 34px;
+    line-height: 50.31px;
+  }
+  .landing-become-partner-subheading {
+    font-size: 22px;
+    line-height: 35.19px;
+  }
+}
+
+@media (max-width: 540px) {
+  .landing-become-partner {
+    min-height: 296px;
+  }
+  .landing-become-partner-linear-gradient {
+    min-height: 296px;
+  }
+  .landing-become-partner-content-container {
+    min-height: 296px;
+  }
+  .landing-become-partner-heading-subheading {
+    gap: 0.5rem;
+  }
+  .landing-become-partner-heading {
+    font-size: 20px;
+    line-height: 26.31px;
+  }
+  .landing-become-partner-subheading {
+    font-size: 11px;
+    line-height: 18.19px;
+  }
+}
+
+/* @media (max-width: 730px) {
+  .landing-become-partner-heading {
+    font-size: 36px;
+    line-height: 50.31px;
+  }
+  .landing-become-partner-subheading {
+    font-size: 20px;
+    line-height: 28.19px;
+  }
+  
+} */

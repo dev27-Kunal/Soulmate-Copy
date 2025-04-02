@@ -1,0 +1,38 @@
+.btn-square {
+  border-radius: 10px !important;
+  /* border-color: transparent !important; */
+  border: none !important;
+  font-size: 27.41px !important;
+  font-family: "Roboto", serif !important;
+  font-weight: 500 !important;
+  padding-block: 16px !important;
+  /* transition: background 0.5s ease !important; */
+  overflow: hidden;
+}
+
+.btn-square:hover div{
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .btn-square {
+    font-size: 19.5px !important;
+    padding-block: 12px !important;
+    padding-inline: 56px !important;
+  }
+}
+@media (max-width: 768px) {
+  .btn-square {
+    font-size: 18.5px !important;
+    padding-block: 8px !important;
+    padding-inline: 42px !important;
+  }
+}
+@media (max-width: 540px) {
+  .btn-square {
+    font-size: 9.5px !important;
+    padding-block: 6px !important;
+    padding-inline: 16px !important;
+    border-radius: 4px !important;
+  }
+}

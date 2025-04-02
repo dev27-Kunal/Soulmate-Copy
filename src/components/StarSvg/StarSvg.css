@@ -1,0 +1,11 @@
+.svg-star svg path{
+  animation: changeColor 3s infinite ;
+}
+@keyframes changeColor{
+  0%, 50%, 100%{
+    fill: #72a3cf;
+  }
+  25%, 75%{
+    fill: #ffffff;
+  }
+}

@@ -1,0 +1,76 @@
+/* Existing fade-in animation */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.fade-in {
+  animation: fade-in 1s ease-in;
+}
+
+/* Slide-up animations for each card */
+@keyframes slide-up-first {
+  from {
+    transform: translateY(25%);
+    opacity: 1; /* Changed from 0 to 1 so the card is visible at start */
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up-second {
+  from {
+    transform: translateY(50%);
+    opacity: 1; /* Ensure visibility at the starting bottom position */
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up-third {
+  from {
+    transform: translateY(75%);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Applying the animations with delays and fill-mode */
+.slide-up-first {
+  animation: slide-up-first 1s ease-out forwards;
+  animation-delay: 1.5s;
+  animation-fill-mode: backwards;
+}
+
+.slide-up-second {
+  animation: slide-up-second 1s ease-out forwards;
+  animation-delay: 1.7s;
+  animation-fill-mode: backwards;
+}
+
+.slide-up-third {
+  animation: slide-up-third 1s ease-out forwards;
+  animation-delay: 1.9s;
+  animation-fill-mode: backwards;
+}
+/* Existing styles for share buttons */
+.share-circle-btn {
+  background: linear-gradient(89.03deg, #ED1B24 3.44%, #ED1B24 45.38%, #F868E7 99.16%);
+}
+.share-reveal-btn {
+  background: linear-gradient(89.03deg, #ED1B24 3.44%, #ED1B24 45.38%, #F868E7 99.16%);
+}
+
+#scratchCardThird:hover{
+  cursor: pointer,
+}
+
+.reveal-star-card{
+  width: 70vh;
+}
