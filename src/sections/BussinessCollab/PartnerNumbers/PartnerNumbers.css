@@ -1,0 +1,14 @@
+.partner-number-btn-linear-gradient {
+  width: 0%;
+  background: linear-gradient(
+    89.03deg,
+    #ed1b24 3.44%,
+    #ed1b24 30.52%,
+    #f868e7 99.16%
+  );
+  transition: width 0.3s ease-in-out;
+}
+
+.partner-number-btn:hover .partner-number-btn-linear-gradient{
+    width: 100%;
+}

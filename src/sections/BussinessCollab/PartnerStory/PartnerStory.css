@@ -1,0 +1,38 @@
+.partner-story-animate-text span {
+  margin-left: 1rem;
+  position: absolute;
+  opacity: 0;
+  animation-name: textFader;
+  animation-duration: 10.5s; /* <---{ 6sec * num(H2) = 18sec } */
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+
+.partner-story-animate-text span:first-of-type { animation-delay: 0s; }
+.partner-story-animate-text span:nth-of-type(2) { animation-delay: 3.5s; }
+.partner-story-animate-text span:last-of-type { animation-delay: 7s; }
+
+@keyframes textFader {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 540px) {
+  .partner-story-animate-text span{
+    margin-left: 0.5rem;
+  }
+}

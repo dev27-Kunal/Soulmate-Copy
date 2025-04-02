@@ -1,0 +1,41 @@
+.btn-round {
+  border-radius: 44.92px !important;
+  border-color: transparent !important;
+  font-size: 27.41px !important;
+  font-weight: 700 !important;
+  padding-inline: 42px !important;
+  padding-block: 16px !important;
+  color: white;
+  overflow: hidden;
+  /* transition: background 0.3s ease !important; */
+}
+
+.btn-round-gradient{
+  width: 0%;
+  transition: width 0.3s ease-in-out;
+}
+
+.btn-round:hover .btn-round-gradient{
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .btn-round {
+    font-size: 21.5px !important;
+    padding-block: 12px !important;
+    padding-inline: 43px !important;
+  }
+}
+
+@media (max-width: 510px) {
+  .btn-round {
+    font-size: 16.41px !important;
+    padding-block: 12px !important;
+    padding-inline: 28px !important;
+  }
+}
+@media (max-width: 360px) {
+  .btn-round {
+    font-size: 16.41px !important;
+  }
+}

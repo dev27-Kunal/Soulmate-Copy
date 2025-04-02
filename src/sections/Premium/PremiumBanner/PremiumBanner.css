@@ -1,0 +1,18 @@
+.premium-banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position-x: center; */
+}
+.inverse-image{
+    /* background-position-y: 4.5%; */
+    background-position-x: center;
+    /* transform: scaleX(-1); */
+}
+.non-inverse-image{
+    /* background-position-x: center; */
+    /* background-position-y: 15%; */
+}
+
+.premium-linear-gradient{
+    background: linear-gradient(270deg, #000000 0%, rgba(204, 207, 209, 0) 36.9%, rgba(125, 126, 127, 0.17) 67.4%, #000000 100%);
+}

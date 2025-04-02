@@ -1,0 +1,35 @@
+.testimonial-card {
+  
+}
+
+.testimonial-video-div {
+    height: 72px;
+    width: 72px;
+    background: rgba(255, 255, 255, 0.56);
+    transition: all 0.7s ease-in-out;
+}
+
+.testimonial-author-name{
+    color: #ffffff;
+    transition: color 0.7s ease-in-out;
+}
+
+.testimonial-card-text{
+    color: #8C8C8C;
+    transition: color 0.7s ease-in-out;
+}
+
+
+.testimonial-card:hover .testimonial-author-name{
+    color: #ED1B24;
+}
+
+.testimonial-card:hover .testimonial-card-text{
+    color: #ffffff;
+}
+
+.testimonial-card:hover .testimonial-video-div{
+    height: 84px;
+    width: 84px;
+    background: rgba(31, 29, 30, 0.86);
+}

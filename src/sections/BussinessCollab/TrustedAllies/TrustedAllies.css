@@ -1,0 +1,36 @@
+.trusted-allies-list-section{
+    background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 6.9%, rgba(255, 255, 255, 0.110434) 15.9%, rgba(255, 255, 255, 0) 88.53%, #FFFFFF 93.9%, #FFFFFF 100%);
+    
+
+}
+.trusted-allies-animate-first-row,
+.trusted-allies-animate-second-row {
+  display: flex;
+  overflow: hidden; /* Ensures the scrolling content is clipped */
+}
+.trusted-allies-animate-first-row {
+  animation: marquee 15s linear infinite;
+}
+
+/* For the second row, scroll from left to right (reverse direction) */
+.trusted-allies-animate-second-row {
+  animation: marqueeReverse 15s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marqueeReverse {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
